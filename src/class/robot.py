@@ -1,3 +1,4 @@
+#!usr/bin/env python
 # coding=UTF-8
 
 
@@ -26,12 +27,14 @@ class Robot:
     '''打印当前的人口数量'''
     print('we have {:2d} robots'.format(cls.population))
 
-print(Robot.__doc__)
-robot = Robot('x')
-robot.sayHi()
-Robot.howMany()
 
-robot2 = Robot('xx')
-robot2.sayHi()
-Robot.howMany()
-robot2.selfHowMany()
+if __name__ == '__main__':
+  print(Robot.__doc__)
+  robot = Robot('x')
+  robot.sayHi()
+  Robot.howMany()
+
+  robot2 = Robot('xx')
+  robot2.sayHi()
+  Robot.howMany()
+  robot2.selfHowMany()
