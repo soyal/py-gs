@@ -1,3 +1,8 @@
+# 基础数据类型
+# tuple dict str list set 
+# 数字类型
+# int float complex bool
+
 shop = ['a', 'b', 'c', 'd']
 
 print('shop list len: {}'.format(len(shop)))
